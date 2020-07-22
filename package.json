@@ -1,0 +1,18 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Node JS Exerciese",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js"
+  },
+  "author": "Behzad Rabiei",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
