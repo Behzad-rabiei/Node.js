@@ -1,0 +1,20 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "ExpressJs learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Behzad Rabiei",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "moment": "2.27.0",
+    "uuid": "8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
