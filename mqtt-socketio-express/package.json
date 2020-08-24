@@ -1,0 +1,22 @@
+{
+  "name": "ws-mqtt-express",
+  "version": "1.0.0",
+  "description": "test mqttjs mysql websocket express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Behzad Rabiei",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mqtt": "^4.2.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
