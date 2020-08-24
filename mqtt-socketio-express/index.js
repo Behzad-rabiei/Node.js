@@ -10,11 +10,7 @@ const topics = require("./mqtt/topics");
 const mqttLogger = require("./utils/mqtt_logger");
 
 //  ********Initial Mqtt********
-const MQTT_OPTIONS = {
-  host: "93.126.3.21",
-  port: 1883,
-};
-const mqttClient = mqtt.connect(MQTT_OPTIONS);
+const mqttClient = mqtt.connect('mqtt://test.mosquitto.org');
 mqttLogger(mqttClient);
 
 //  ********Initial Server********
